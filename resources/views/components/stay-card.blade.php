@@ -1,19 +1,11 @@
 <div class="border rounded-xl overflow-hidden">
+    <img src="{{ asset($image) }}"
+         class="h-40 w-full object-cover"
+         alt="">
 
-    <img
-        src="/images/stay.jpg"
-        alt="Stay"
-        class="h-48 w-full object-cover"
-    >
-
-    <div class="p-4">
-        <h3 class="font-medium">Brightwoods Cabin</h3>
-        <p class="text-sm text-gray-500">Ontario, Canada</p>
-
-        <div class="flex justify-between items-center mt-3">
-            <span class="font-semibold">$658 / night</span>
-            <span class="text-sm text-yellow-500">★ 4.9</span>
-        </div>
+    <div class="p-3 space-y-1">
+        <h3 class="font-semibold">{{ $title }}</h3>
+        <p class="text-sm text-gray-500">{{ $location }}</p>
+        <p class="font-bold">{{ $price }} <span class="text-sm font-normal">/ night</span></p>
     </div>
-
 </div>

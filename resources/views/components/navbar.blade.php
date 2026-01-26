@@ -12,7 +12,7 @@
         </ul>
 
         <div class="flex items-center gap-3">
-            <img src="/images/avatar.png" alt="User" class="h-8 w-8 rounded-full">
+            <img src="/images/avatar.jpg" alt="User" class="h-8 w-8 rounded-full">
         </div>
 
     </div>

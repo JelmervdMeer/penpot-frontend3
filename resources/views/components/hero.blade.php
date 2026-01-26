@@ -1,14 +1,19 @@
-<section class="bg-teal-500 relative">
-    <div class="max-w-7xl mx-auto px-6 py-24 grid grid-cols-2 gap-12 items-center">
+<section
+    class="relative bg-cover bg-center"
+    style="background-image: url('{{ asset('images/herobg.jpg') }}')"
+>
+    <!-- Witte fade overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
 
-        {{-- Tekst --}}
+    <!-- Content -->
+    <div class="relative max-w-7xl mx-auto px-6 py-24 grid grid-cols-2 gap-12 items-center">
         <div>
-            <h1 class="text-5xl font-bold text-white leading-tight">
-                Find a <span class="text-teal-200">host</span><br>
+            <h1 class="text-5xl font-bold text-gray-900 leading-tight">
+                Find a <span class="text-teal-600">host</span><br>
                 for every journey
             </h1>
 
-            <p class="mt-6 text-white/90 max-w-md">
+            <p class="mt-6 text-gray-700 max-w-md">
                 Discover the best local rental properties that fits your every travel needs
             </p>
 
@@ -16,15 +21,5 @@
                 <x-search-bar />
             </div>
         </div>
-
-        {{-- Afbeelding --}}
-        <div>
-            <img
-                src="/images/hero.jpg"
-                alt="Travel destination"
-                class="rounded-xl shadow-lg"
-            >
-        </div>
-
     </div>
 </section>

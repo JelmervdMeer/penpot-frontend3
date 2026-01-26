@@ -1,4 +1,5 @@
-<div class="bg-white rounded-xl shadow-lg p-4 grid grid-cols-5 gap-2">
+<div class="mt-10 relative">
+<div class="bg-white rounded-xl shadow-lg p-4 grid grid-cols-5 gap-2 w-286">
 
     <input
         type="text"
@@ -28,4 +29,5 @@
         Search
     </x-button>
 
+</div>
 </div>

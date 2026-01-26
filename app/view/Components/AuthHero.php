@@ -4,10 +4,10 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class StaysSection extends Component
+class AuthHero extends Component
 {
     public function render()
     {
-        return view('components.stays-section');
+        return view('components.auth-hero');
     }
 }
