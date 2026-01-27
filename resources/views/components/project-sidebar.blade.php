@@ -1,30 +1,54 @@
-<aside class="border rounded-xl p-6 space-y-4 shadow-sm top-6">
-    <div>
-        <p class="text-2xl font-bold">$658 <span class="text-sm font-normal">/ night</span></p>
-        <p class="text-sm text-green-600">Best time to book</p>
+<div class="bg-white border rounded-xl p-6 space-y-4 shadow-sm">
+
+    <div class="flex justify-between items-start">
+        <div>
+            <h2 class="text-xl font-semibold">Brightwoods Cabin</h2>
+            <p class="text-sm text-gray-500">Banff National Park</p>
+
+            <div class="flex items-center gap-2 mt-1 text-sm">
+                <span>5.0 ⭐</span>
+                <span class="text-teal-600">200 Reviews</span>
+            </div>
+        </div>
+
+        <button class="text-xl">♡</button>
     </div>
 
-    <button class="w-full bg-teal-500 text-white py-3 rounded-lg">
+    <p class="text-sm text-gray-600 leading-relaxed">
+        Welcome to our cozy cabin retreat nestled in the heart of Banff National Park.
+        Surrounded by lush landscapes and tranquil trails, this charming getaway offers
+        the perfect blend of rustic elegance and modern comfort.
+        Enjoy the views of the rocky mountains and emerald lakes.
+    </p>
+
+    <div class="flex items-center justify-between pt-2">
+        <div class="text-2xl font-semibold">
+            $658<span class="text-sm font-normal">/night</span>
+        </div>
+
+        <div class="flex items-center gap-1 text-teal-600 text-sm">
+            📩 <span>Best time to book</span>
+        </div>
+    </div>
+
+    <button class="w-full bg-teal-500 text-white py-3 rounded-lg font-medium hover:bg-teal-600 transition">
         Book this home
     </button>
 
-    <div class="border-t pt-4">
-        <p class="text-sm text-gray-500">Hosted by</p>
+    <hr>
 
-        <div class="flex items-center gap-3 mt-2">
-            <img src="{{ asset('images/avatar.png') }}"
-                 class="w-10 h-10 rounded-full">
+    <div class="flex items-center gap-3">
+        <img src="{{ asset('images/avatar.jpg') }}" class="w-10 h-10 rounded-full" alt="Host">
 
-            <div>
-                <p class="font-semibold">Michelle Ward</p>
-                <p class="text-xs text-gray-500">Joined in May 2021</p>
-            </div>
-
-            <span class="ml-auto text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
-                Superhost
+        <div>
+            <p class="text-sm font-medium">Michelle Ward</p>
+            <span class="inline-flex items-center gap-1 text-xs bg-teal-100 text-teal-700 px-2 py-0.5 rounded-full">
+                ✔ Superhost
             </span>
         </div>
     </div>
+
+</div>
 
     
 </aside>

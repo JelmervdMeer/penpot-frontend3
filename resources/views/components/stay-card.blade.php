@@ -1,11 +1,20 @@
-<div class="border rounded-xl overflow-hidden">
-    <img src="{{ asset($image) }}"
-         class="h-40 w-full object-cover"
-         alt="">
+<div class="relative bg-white rounded-xl overflow-hidden shadow">
 
-    <div class="p-3 space-y-1">
+    {{-- ICONS --}}
+    
+        
+      
+    
+
+    {{-- IMAGE --}}
+    <img src="{{ asset($image) }}"
+         alt="{{ $title }}"
+         class="w-full h-56 object-cover">
+
+    {{-- TEXT --}}
+    <div class="p-4">
         <h3 class="font-semibold">{{ $title }}</h3>
         <p class="text-sm text-gray-500">{{ $location }}</p>
-        <p class="font-bold">{{ $price }} <span class="text-sm font-normal">/ night</span></p>
+        <p class="mt-1 font-medium">{{ $price }}</p>
     </div>
 </div>

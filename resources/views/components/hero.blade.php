@@ -8,8 +8,8 @@
     <!-- Content -->
     <div class="relative max-w-7xl mx-auto px-6 py-24 grid grid-cols-2 gap-12 items-center">
         <div>
-            <h1 class="text-5xl font-bold text-gray-900 leading-tight">
-                Find a <span class="text-teal-600">host</span><br>
+            <h1 class="text-5xl font-bold text-gray-900 leading-tight whitespace-nowrap">
+                Find a <span class="text-teal-600">host</span>
                 for every journey
             </h1>
 
